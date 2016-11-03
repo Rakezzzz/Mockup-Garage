@@ -1,0 +1,178 @@
+﻿*
+{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+html
+{
+    background: url('../image/backgroundImage.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+
+body 
+{
+    margin-left: 30px;
+}
+nav
+{
+    width: 8vw;
+    margin: auto auto auto -4vw;
+    font-weight: 600;
+    position: absolute;
+    top: 1vh;
+    left: 50%;
+    background-color: rgba(165, 42, 42, .2);
+    text-align: center;
+    border-radius: 10px;
+}
+
+header
+{
+    margin-top: 10px;
+    display: inline-block;
+    width: 10vw;
+    color: yellowgreen;
+
+}
+
+footer
+{
+    position: absolute;
+    bottom: 10px;
+    color: red;
+    background-color: black;
+}
+
+a
+{
+    color: red;
+    text-decoration: none;
+}
+
+.wrap
+{
+  position: relative;
+  margin: auto;
+  padding: 5% 15% 5% 15%;
+  border-radius: 200px;
+  
+}
+
+.floatLeft
+{
+    position: relative;
+    margin-left: 8%;
+    margin-top: 30px;
+    padding: 40px;
+    float: left;
+    width: 350px;
+    border-radius: 40px;
+    text-align: center;
+}
+
+.RedBackground
+{
+    
+    background: radial-gradient(rgba(255, 153, 153, .8) 50%, #ff6666 53%, #ff4d4d 56%,  #ff4d4d 59%, #ff3333 62%, #ff1a1a 65%, #ff0000 68%, #e60000 71%, #cc0000 74%, #b30000 79%, #990000 82%, #800000 85%, #660000 88%, #4d0000 91%, #330000 94%, transparent);
+    text-shadow: -1px -1px 0 #ff9999,
+                  1px -1px 0 #ff9999,
+                 -1px 1px 0 #ff9999,
+                  1px 1px 0 #ff9999;
+}
+
+
+
+.floatLeft img
+{
+    position: absolute;
+    top: 25%;
+    left: 40%;
+    height: 20%;
+    width: 20%;
+    transition: transform ease 1s;
+    -webkit-transition: transform ease 1s;
+}
+
+.floatLeft img:hover
+{
+    transform: scale(4) translateY(6px);
+}
+
+.garageList
+{
+    position: relative;
+    height: 60px;
+    padding-top: 20px;
+    padding-left: 15%;
+    list-style-type: none;
+}
+
+.garageList > li
+{
+    padding-top: 80px;
+}
+
+.garageList li:first-child
+{
+    margin-left: -14vw;
+}
+
+
+
+.contactList li
+{
+    
+    margin-left: 10px;
+    list-style-type: none;
+}
+.contactList li:first-child
+{
+    margin-left: 12vw;
+}
+
+#FirstFloatContact
+{
+    margin-left: 0;
+    text-align: center;
+}
+
+#GarageArticle
+{
+    text-align: center;
+    padding: 5% 15% 5% 15%;
+}
+
+#CarVideo
+{
+
+    height: 30vh;
+    width: 30vw;
+    border-radius: 40px;
+}
+
+h1
+{
+    text-align: center;
+    margin-bottom: 20px;
+    text-shadow: none;
+}
+
+#IndexRightSide
+{
+    position: relative;
+    display: inline-block;
+    width: 30vw;
+}
+
+#IndexRightSide img
+{
+    display:inline-block;
+    height: 17vh;
+    width: 14vw;
+    border-radius: 40px;
+}
